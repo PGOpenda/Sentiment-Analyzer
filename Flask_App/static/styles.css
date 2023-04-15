@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: #d3d3d3; 
+}
+
+main{
+    font-family: 'Raleway', sans-serif;  
+}
+
+.nav{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    box-shadow: 0 2px 60px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form textarea {
+    text-align: center;
+    width: 65%;
+    height: 150px; /* adjust height as needed */
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    resize: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+    background-color: #d3d3d3; 
+    caret-color: black;
+  }
+
+.form textarea::selection {
+    background-color: #f0f0f0;
+  }
+  
+.form textarea:focus {
+    outline: none;
+  } 
+  
+.buttons{
+    display: flex; 
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.form .buttons button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    font-size: 1.4rem;
+    margin-right: 5%;   
+  }
+
+.clear{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    font-size: 1.4rem;
+    margin-left: 5%; 
+}
+
+button {
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover, button:focus {
+    transform: scale(1.1);
+}
+
+input[type="button"] {
+    transition: transform 0.2s ease-in-out;
+}
+
+input[type="button"]:hover, input[type="button"]:focus {
+    transform: scale(1.1);
+}
+
+.label{
+    margin-top: 6%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15px;
+    margin-bottom: 2.8%; /* adjust height as needed */   
+}

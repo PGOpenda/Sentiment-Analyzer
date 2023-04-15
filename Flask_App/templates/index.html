@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analyzer (swahili)</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+
+    <!-- Google Font Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <!-- My StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    
+</head>
+
+<body>
+    <main>
+        <div class="nav">
+            Sentiment Analyzer
+        </div>
+        <div class="form">
+            <textarea name="text" id="textarea" spellcheck="false" placeholder="Write some swahili text here....."></textarea>
+            <div class="buttons">
+                <!-- <input type="submit" value="get sentiment" id="submitbtn"> -->
+                <button type="submit" id="submitbtn">get sentiment</button>
+                <input type="button" value="clear text" class="clear" id="clear">
+            </div> 
+        </div>
+        <div class="label" id="label">
+            
+        </div>
+        <div class="footer">
+            <em>NB: This sentiment analyzer for swahili text data may not be accurate. User discretion is advised.</em>
+            <em>By Pius Openda</em>
+        </div>
+    </main>
+
+    <!-- My Script file -->
+    <script async src="/static/script.js"></script>
+</body>
+</html>
